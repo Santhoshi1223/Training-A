@@ -1,0 +1,66 @@
+Question 1 - Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+Answer:
+
+A data type defines the type of data a variable can hold in a programming language. It specifies the kind of value (e.g., integer, floating-point, character, string) and the operations that can be performed on that value. Data types are essential in programming to ensure the proper use of memory and to help the compiler or interpreter understand how data is being used.
+
+---Types of Data Types
+Data types can be broadly classified into:
+
+> Primitive Data Types
+> Non-Primitive Data Types
+
+1. Primitive Data Types
+These are the basic building blocks of data manipulation and are predefined by the programming language. They typically store simple values and are not made up of other data types.
+
+Examples:
+>Integer (int): Stores whole numbers.
+Example: int age = 25;
+
+>Floating-point (float, double): Stores decimal numbers.
+Example: float price = 19.99;
+
+<Character (char): Stores a single character.
+Example: char grade = 'A';
+
+>Boolean (bool): Stores true or false values.
+Example: bool isPassed = true;
+
+2. Non-Primitive Data Types
+These are more complex data types derived from the primitive types. They are used to store collections of values or represent objects.
+
+Examples:
+>String: A sequence of characters.
+Example: String name = "Alice"; 
+
+>Array: A collection of elements of the same data type.
+Example: int[] numbers = {1, 2, 3, 4};
+
+>List, Set, Map (in Python/Java): Collections that store multiple elements.
+Example (Python): list_of_numbers = [1, 2, 3]
+
+#Example in Java
+Input:
+
+public class DataTypeExample {
+    public static void main(String[] args) {
+        // Primitive data types
+        int age = 25;
+        float price = 99.99f;
+        char grade = 'A';
+        boolean isPassed = true;
+
+        // Non-Primitive data types
+        String name = "John Doe";
+        int[] scores = {85, 90, 78};
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Scores: " + scores[0] + ", " + scores[1] + ", " + scores[2]);
+    }
+}
+
+Output:
+Name: John Doe
+Age: 25
+Scores: 85, 90, 78
+
+
