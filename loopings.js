@@ -9,14 +9,14 @@
 
 //! Below code is to print the even and odd numbers from 1 to 100
 
-// let n = 100;
-// for (let i = 1; i <= n; i++) {
-//     if (i % 2 == 0) {
-//         console.log(i+ " is an even number");
-//     } else {
-//         console.log(i+ " is an odd number");
-//     }
-// }
+let n = 100;
+for (let i = 1; i <= n; i++) {
+    if (i % 2 == 0) {
+        console.log(i+ " is an even number");
+    } else {
+        console.log(i+ " is an odd number");
+    }
+}
 
 
 
@@ -52,9 +52,9 @@
 
 //! break (when using break, the program terminates completely after the value 5 as mentioned in break condition)
 
-for (let i=1; i<=10; i++){
-    console.log(i);
-    if(i==5) break; //break statement is written after console.log statement
-}
+// for (let i=1; i<=10; i++){
+//     console.log(i);
+//     if(i==5) break; //break statement is written after console.log statement
+// }
 
 
