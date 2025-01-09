@@ -136,3 +136,5 @@ Decision making statments:-
 - ternary
 
 prompt():- this method is used to collect the data from the users.
+
+

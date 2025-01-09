@@ -9,14 +9,14 @@
 
 //! Below code is to print the even and odd numbers from 1 to 100
 
-let n = 100;
-for (let i = 1; i <= n; i++) {
-    if (i % 2 == 0) {
-        console.log(i+ " is an even number");
-    } else {
-        console.log(i+ " is an odd number");
-    }
-}
+// let n = 100;
+// for (let i = 1; i <= n; i++) {
+//     if (i % 2 == 0) {
+//         console.log(i+ " is an even number");
+//     } else {
+//         console.log(i+ " is an odd number");
+//     }
+// }
 
 
 
