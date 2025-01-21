@@ -250,3 +250,31 @@ JSON :- Javascript object notation.
 methods of json:-
 1.JSON.stringfy() :- it is used to convert Javascript object into JSON object.
 2.JSON.parse() :- it is used to convert JSON object into Javascript object.
+
+Asynchrnous in javascript:-
+***************************
+- to perform multiple task in javascript.
+
+1.setTimeout() :- it is a web api used to perform async operations at specified timeout.
+syntax :-  setTimeout(Callbackfn , timeout);
+
+2.setInterval():- it is a web api used to perform async operations at certain time interval.
+syntax :-  setInterval(Callbackfn , timeout);
+
+
+3.promise :- Promise is an object which represents eventual completion or failures of an async operations.
+
+    states of promise:-
+    1.pending state
+    2.fulfilled state
+    3.rejected state
+
+syntax :-  let p =  new Promise((resolve , reject)=>{});
+
+- the actual way of executing the promise is instance methods,
+        1.then() :- it is used to execute fulfilled state
+        2.catch() :- it is used to execute rejected state
+        3.finally() :- once promise is settled it will print the value.
+
+4.async & await
+note :- by default , javascript is synchronous(single threaded).

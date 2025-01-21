@@ -31,28 +31,28 @@
 
 //! create array of objects and print the values
 
-let userDetails = [
-    {
-        name: "Ramya",
-        city: "Guntur"
-    },
-    {
-        name: "Lasya",
-        city: "Karimnagar"
-    },
-    {
-        name: "Arjun",
-        city: "KPHB"
-    },
-    {
-        name: "Sai",
-        city: "Hyderabad"
-    }
-];
+// let userDetails = [
+//     {
+//         name: "Ramya",
+//         city: "Guntur"
+//     },
+//     {
+//         name: "Lasya",
+//         city: "Karimnagar"
+//     },
+//     {
+//         name: "Arjun",
+//         city: "KPHB"
+//     },
+//     {
+//         name: "Sai",
+//         city: "Hyderabad"
+//     }
+// ];
 
-userDetails.map((x)=>{
-    console.log(x.name);
-})                           
+// userDetails.map((x)=>{
+//     console.log(x.name);
+// })                           
 
 //! o/p Ramya Lasya Arjun Sai
 
