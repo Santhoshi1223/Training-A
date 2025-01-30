@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset = "UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <h1>Javascript</h1>
-        
-        <script src="async.js"></script>
-        <script src="script.js"></script>
-    </body>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Signup Form</h2>
+        <form id="signupForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <span class="error" id="usernameError"></span>
 
-<table>
-    <thead>
-        <th>Sl.No</th>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Company</th>
-    </thead>
-    <tbody id="store">
-        
-    </tbody>
-</table>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <span class="error" id="passwordError"></span>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <span class="error" id="confirmPasswordError"></span>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
